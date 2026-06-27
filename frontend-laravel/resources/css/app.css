@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+    --color-medical-light: #E0F2FE;
+    --color-medical-blue: #0EA5E9;
+    --color-medical-deep: #1E3A8A;
+    --color-medical-navy: #1E293B;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+}

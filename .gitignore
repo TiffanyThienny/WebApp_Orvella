@@ -1,0 +1,77 @@
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+backend_log.txt
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Laravel/PHP
+vendor/
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Env files
+.env
+.env.backup
+.env.production
+.env.local
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Mobile App
+.expo/
+*.jks
+*.keystore
+
+# specific files
+credentials.txt
